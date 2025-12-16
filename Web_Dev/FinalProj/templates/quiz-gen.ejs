@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trivia Quiz App</title>
+  <link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+  <h1>Welcome to the Trivia Quiz App</h1>
+  <form action="/start" method="POST">
+    <input type="text" name="username" placeholder="Enter your name" required>
+    <select name="category" required>
+      <option value="9">General Knowledge</option>
+      <option value="11">Movies</option>
+      <option value="12">Entertanment: Music</option>
+      <option value="18">Science: Computers</option>
+    </select>
+    <select name="difficulty" required>
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+  
+    <select name="difficulty" disabled>
+        <option value="easy">Multiple Choice</option>
+      </select><br><br>
+    <button type="submit">Start Quiz</button>
+  </form> 
+  <br>
+  <button><a href="/">Home</a></button>
+</body>
+</html>

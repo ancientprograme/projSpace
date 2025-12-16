@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz History</title>
+  <link rel="stylesheet" href="/styles.css">
+
+</head>
+<body>
+  <h1>Quiz History</h1>
+  <ul>
+    <% results.forEach(result => { %>
+      <li>
+        <strong><%= result.name %></strong>: <%= result.score %> points on <%= new Date(result.when).toLocaleString() %>
+      </li>
+    <% }) %>
+  </ul>
+  <button><a href="/">Home</a></button>
+</body>
+</html>

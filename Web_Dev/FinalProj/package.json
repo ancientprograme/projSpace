@@ -1,0 +1,26 @@
+{
+  "name": "examproj",
+  "version": "1.0.1",
+  "description": "Exam final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "335",
+    "FA2024",
+    "Exam"
+  ],
+  "author": "Azariyas Tafesse",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.8",
+    "body-parser": "^1.20.3",
+    "cm": "^0.3.2",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "middleware": "^1.0.0",
+    "mongodb": "^6.11.0"
+  }
+}
